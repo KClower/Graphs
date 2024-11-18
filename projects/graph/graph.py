@@ -122,6 +122,7 @@ class Graph:
         breath-first order.
         """
         # Initialize the queue with the starting path
+        
         queue = deque([[starting_vertex]])
         # Create set to keep track of visited vertices
         visited = set()
